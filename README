@@ -1,0 +1,8 @@
+This is a simple Mini C Compiler using Lex & Yacc. 
+
+Compilation Steps 
+	$ lex c.l
+	$ yacc c.y
+	$ gcc y.tab.c -ll -ly 
+	$ ./a.out [filename]
+
